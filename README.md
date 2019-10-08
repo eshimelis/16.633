@@ -1,2 +1,2 @@
-# NEET
-NEET Labs and Code
+# Course 16.633
+NEET Autonomous Machines Labs and Code

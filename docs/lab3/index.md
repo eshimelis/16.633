@@ -11,9 +11,8 @@
 ## Turning on the Car
 1. **Use Blocko Friendo**  
 Set the car on a block on your table, such that the wheels <font color="AA0000">__aren't touching the table__</font>. Unless you're actually testing your code on the ground, leave the car on this block.
-<center>
 ![](./img/mondo_block.jpg)
-</center>
+
 
 2. **Plug in the Electronics Battery**  
 Unplug the battery charger.

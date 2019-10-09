@@ -1,6 +1,6 @@
 ## Lab 3 - Introduction to the RACECAR Platform
 
-![racecar](./img/racecar.jpg)
+<img align="center" src="./img/racecar.jpg">
 
 ### Goals
 - 
@@ -11,32 +11,27 @@
 ## Turning on the Car
 1. **Use Blocko Friendo**  
 Set the car on a block on your table, such that the wheels <font color="AA0000">__aren't touching the table__</font>. Unless you're actually testing your code on the ground, leave the car on this block.
-![](./img/mondo_block.jpg)
+<img align="center" src="./img/mondo_block.jpg">
 
 
 2. **Plug in the Electronics Battery**  
 Unplug the battery charger.
-<center>
-![](img/xt_battery.png)
-</center>
+<img align="center" src="img/xt_battery.png">
+
 If you have an XT Power battery, there will be two identical wires; you only need to plug one into the battery. On these batteries, *quickly* press the battery's power button. If you hold it, it will change the voltage setting.
-<center>
-![](../Resources/CarEPower.jpg)
-</center>
+<img align="center" src="../Resources/CarEPower.jpg">
+
 If you have an Energizer battery, there will be a wire marked blue and a wire marked green, which you must plug into the corresponding ports).  
 <font color="A0A0A0">Troubleshooting Tip: if something isn't receivng power, check to make sure that the blue and green ports inside the Energizer aren't broken apart. Each should have a center pin.</font>
 
 3. **Boot it Up**  
 Turn on the car using the power button on the TX2. The lights should turn green.
-<center>
-![](../Resources/CarPower.jpg)
-</center>
+<cimg align="center" src="../Resources/CarPower.jpg">
 
 4. **Plug in the Traxxas Battery**  
 This battery can supply ample amperage to the VESC (Vedder Electronic Speed Controller) which controls the drive and steering motor.
-<center>
-![](../Resources/CarTPower.jpg)
-</center>
+<img align="center" src="../Resources/CarTPower.jpg">
+
 <font color="A0A0A0">Troubleshooting Tip: you'll know the VESC is receiving power if the steering servo motor tries to keep the front wheels steered forwards. Also, please don't apply too much force when trying to turn the front wheels to test this; it doesn't take much force to tell.</font>
 
 ## SSH'ing
@@ -78,13 +73,13 @@ If your car doesn't drive with the controller...
 * If you get individual errors for the Hokuyo or IMU, check that these are properly plugged in.
     * <table>
         <tr>
-            <td>![](img/imu_small.png)</td>
+            <td> <img align="center" src="img/imu_small.png"> </td>
             <td>The IMU should be plugged into the USB hub, and its micro USB port should not be ripped off. It should light a blue LED when it's powered on.</td>
         </tr>
     </table>
     * <table>
         <tr>
-            <td>![](img/hokuyo_small.png)</td>
+            <td> <img align="cener" src="img/hokuyo_small.png"> </td>
             <td>For the Hokuyo, check that its Ethernet cable is plugged into the USB and that it's power cable is plugged into the power harness. You'll know the Hokuyo is receiving power if you can hear it whirring.</td>
         </tr>
     </table>

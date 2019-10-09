@@ -13,12 +13,13 @@ Unplug the battery charger.
 <img align="center" src="img/xt_battery.png">
 If you have an XT Power battery, there will be two identical wires; you only need to plug one into the battery. On these batteries, *quickly* press the battery's power button. If you hold it, it will change the voltage setting.
 <img align="center" src="../Resources/CarEPower.jpg">
-If you have an Energizer battery, there will be a wire marked blue and a wire marked green, which you must plug into the corresponding ports).  
-<font color="A0A0A0">Troubleshooting Tip: if something isn't receivng power, check to make sure that the blue and green ports inside the Energizer aren't broken apart. Each should have a center pin.</font>
+If you have an Energizer battery, there will be a wire marked blue and a wire marked green, which you must plug into the corresponding ports).
+
+    <font color="A0A0A0">Troubleshooting Tip: if something isn't receivng power, check to make sure that the blue and green ports inside the Energizer aren't broken apart. Each should have a center pin. </font>
 
 3. **Boot it Up**  
 Turn on the car using the power button on the TX2. The lights should turn green.
-<cimg align="center" src="../Resources/CarPower.jpg">
+<img align="center" src="../Resources/CarPower.jpg">
 
 4. **Plug in the Traxxas Battery**  
 This battery can supply ample amperage to the VESC (Vedder Electronic Speed Controller) which controls the drive and steering motor.
@@ -79,11 +80,11 @@ If your car doesn't drive with the controller...
 Alternatively, you may also get a similar whopping load of errors if more than one person tries running `teleop` at the same time. Power cycle the car and try it again with only one person ssh-ed in (or just use the monitor and keyboard).
 - If your controller was on D and then you switched it to X, try power-cycling the car.
 
-When you think you have a good feel of the car, move on to the next section.
+<!-- When you think you have a good feel of the car, move on to the next section.
 
 ## Intro to autonomous driving
 First, let's just program the racecar to drive forwards on its own. Open `controller.py`. Change the car's velocity in the function `drive_callback`. You can change the speed with the variable `self.cmd.drive.speed`. Start off with small values like 0.5 so you don't accidently crash!
 
 When you want to run your code on the car, press the right bumper on the controller after `teleop` and your code are running.
 
-Next, try having the car drive in a circle. You can change the wheel angle with the variable `self.cmd.drive.steering_angle` (the car uses radians). Explore the range of values that might work best for your car (speed, turning angle, etc).
+Next, try having the car drive in a circle. You can change the wheel angle with the variable `self.cmd.drive.steering_angle` (the car uses radians). Explore the range of values that might work best for your car (speed, turning angle, etc). -->

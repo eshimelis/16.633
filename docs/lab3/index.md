@@ -2,10 +2,6 @@
 
 <img align="center" src="./img/racecar.jpg">
 
-### Goals
-- 
-
-### Requirements
 
 ## Turning on the Car
 1. **Use Blocko Friendo**  
@@ -16,10 +12,8 @@ Set the car on a block on your table, such that the wheels <font color="AA0000">
 2. **Plug in the Electronics Battery**  
 Unplug the battery charger.
 <img align="center" src="img/xt_battery.png">
-
 If you have an XT Power battery, there will be two identical wires; you only need to plug one into the battery. On these batteries, *quickly* press the battery's power button. If you hold it, it will change the voltage setting.
 <img align="center" src="../Resources/CarEPower.jpg">
-
 If you have an Energizer battery, there will be a wire marked blue and a wire marked green, which you must plug into the corresponding ports).  
 <font color="A0A0A0">Troubleshooting Tip: if something isn't receivng power, check to make sure that the blue and green ports inside the Energizer aren't broken apart. Each should have a center pin.</font>
 
@@ -30,7 +24,6 @@ Turn on the car using the power button on the TX2. The lights should turn green.
 4. **Plug in the Traxxas Battery**  
 This battery can supply ample amperage to the VESC (Vedder Electronic Speed Controller) which controls the drive and steering motor.
 <img align="center" src="../Resources/CarTPower.jpg">
-
 <font color="A0A0A0">Troubleshooting Tip: you'll know the VESC is receiving power if the steering servo motor tries to keep the front wheels steered forwards. Also, please don't apply too much force when trying to turn the front wheels to test this; it doesn't take much force to tell.</font>
 
 ## SSH'ing
@@ -71,18 +64,19 @@ If your car doesn't drive with the controller...
 - Check `teleop` for any errors. There should be a "force feedback" error for the joystick, but everything else should run fine.
 - If there is a VESC error, quit `teleop`, wait a minute or two and try again. This often happens if you try to run teleop immediately after turning on the car or pluggin in the Traxxas battery, since it takes a minute for the VESC to boot up.
 - If you get individual errors for the Hokuyo or IMU, check that these are properly plugged in.
-    - <table>
-        <tr>
-            <td> <img align="center" src="img/imu_small.png"> </td>
-            <td>The IMU should be plugged into the USB hub, and its micro USB port should not be ripped off. It should light a blue LED when it's powered on.</td>
-        </tr>
-    </table>
-    - <table>
-        <tr>
-            <td> <img align="cener" src="img/hokuyo_small.png"> </td>
-            <td>For the Hokuyo, check that its Ethernet cable is plugged into the USB and that it's power cable is plugged into the power harness. You'll know the Hokuyo is receiving power if you can hear it whirring.</td>
-        </tr>
-    </table>
+
+<table>
+    <tr>
+        <td> <img align="center" src="img/imu_small.png"> </td>
+        <td>The IMU should be plugged into the USB hub, and its micro USB port should not be ripped off. It should light a blue LED when it's powered on.</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td> <img align="cener" src="img/hokuyo_small.png"> </td>
+        <td>For the Hokuyo, check that its Ethernet cable is plugged into the USB and that it's power cable is plugged into the power harness. You'll know the Hokuyo is receiving power if you can hear it whirring.</td>
+    </tr>
+</table>
 - If you get multiple errors for the VESC and IMU, there might be a problem with your USB hub. Try power-cycling the car (turning it off and on). If that doesn't fix it, check that the USB hub is connected to the TX2 board and is getting power from the electronics battery through the power harness.  
 Alternatively, you may also get a similar whopping load of errors if more than one person tries running `teleop` at the same time. Power cycle the car and try it again with only one person ssh-ed in (or just use the monitor and keyboard).
 - If your controller was on D and then you switched it to X, try power-cycling the car.

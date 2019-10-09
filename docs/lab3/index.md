@@ -7,7 +7,6 @@
 
 ### Requirements
 
-
 ## Turning on the Car
 1. **Use Blocko Friendo**  
 Set the car on a block on your table, such that the wheels <font color="AA0000">__aren't touching the table__</font>. Unless you're actually testing your code on the ground, leave the car on this block.
@@ -35,6 +34,7 @@ This battery can supply ample amperage to the VESC (Vedder Electronic Speed Cont
 <font color="A0A0A0">Troubleshooting Tip: you'll know the VESC is receiving power if the steering servo motor tries to keep the front wheels steered forwards. Also, please don't apply too much force when trying to turn the front wheels to test this; it doesn't take much force to tell.</font>
 
 ## SSH'ing
+
 **The `ssh` command allows you to use a remote computer's (i.e. a racecar's) terminal on your host machine.**
 
 To ssh, make sure you are connected to the same wifi network as your car.  
@@ -68,24 +68,24 @@ Keep in mind that these are expensive (i.e. several kilodollars!) piece of equip
 #### Common Errors
 If your car doesn't drive with the controller...
 
-* Check `teleop` for any errors. There should be a "force feedback" error for the joystick, but everything else should run fine.
-* If there is a VESC error, quit `teleop`, wait a minute or two and try again. This often happens if you try to run teleop immediately after turning on the car or pluggin in the Traxxas battery, since it takes a minute for the VESC to boot up.
-* If you get individual errors for the Hokuyo or IMU, check that these are properly plugged in.
-    * <table>
+- Check `teleop` for any errors. There should be a "force feedback" error for the joystick, but everything else should run fine.
+- If there is a VESC error, quit `teleop`, wait a minute or two and try again. This often happens if you try to run teleop immediately after turning on the car or pluggin in the Traxxas battery, since it takes a minute for the VESC to boot up.
+- If you get individual errors for the Hokuyo or IMU, check that these are properly plugged in.
+    - <table>
         <tr>
             <td> <img align="center" src="img/imu_small.png"> </td>
             <td>The IMU should be plugged into the USB hub, and its micro USB port should not be ripped off. It should light a blue LED when it's powered on.</td>
         </tr>
     </table>
-    * <table>
+    - <table>
         <tr>
             <td> <img align="cener" src="img/hokuyo_small.png"> </td>
             <td>For the Hokuyo, check that its Ethernet cable is plugged into the USB and that it's power cable is plugged into the power harness. You'll know the Hokuyo is receiving power if you can hear it whirring.</td>
         </tr>
     </table>
-* If you get multiple errors for the VESC and IMU, there might be a problem with your USB hub. Try power-cycling the car (turning it off and on). If that doesn't fix it, check that the USB hub is connected to the TX2 board and is getting power from the electronics battery through the power harness.  
+- If you get multiple errors for the VESC and IMU, there might be a problem with your USB hub. Try power-cycling the car (turning it off and on). If that doesn't fix it, check that the USB hub is connected to the TX2 board and is getting power from the electronics battery through the power harness.  
 Alternatively, you may also get a similar whopping load of errors if more than one person tries running `teleop` at the same time. Power cycle the car and try it again with only one person ssh-ed in (or just use the monitor and keyboard).
-* If your controller was on D and then you switched it to X, try power-cycling the car.
+- If your controller was on D and then you switched it to X, try power-cycling the car.
 
 When you think you have a good feel of the car, move on to the next section.
 

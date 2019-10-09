@@ -8,7 +8,6 @@
 Set the car on a block on your table, such that the wheels <font color="AA0000">__aren't touching the table__</font>. Unless you're actually testing your code on the ground, leave the car on this block.
 <img align="center" src="./img/mondo_block.jpg">
 
-
 2. **Plug in the Electronics Battery**  
 Unplug the battery charger.
 <img align="center" src="img/xt_battery.png">
@@ -27,7 +26,6 @@ This battery can supply ample amperage to the VESC (Vedder Electronic Speed Cont
 <font color="A0A0A0">Troubleshooting Tip: you'll know the VESC is receiving power if the steering servo motor tries to keep the front wheels steered forwards. Also, please don't apply too much force when trying to turn the front wheels to test this; it doesn't take much force to tell.</font>
 
 ## SSH'ing
-
 **The `ssh` command allows you to use a remote computer's (i.e. a racecar's) terminal on your host machine.**
 
 To ssh, make sure you are connected to the same wifi network as your car.  
@@ -38,7 +36,6 @@ The RACECAR's password is racecar@mit.
 Make sure everyone on your team is able to do this before moving on! 
 
 ## SCP'ing
-
 **The `scp` command allows you to copy files back and forth from a remote machine.**  
 
 From local to remote (i.e. upload to car):  

@@ -77,6 +77,7 @@ If your car doesn't drive with the controller...
         <td>For the Hokuyo, check that its Ethernet cable is plugged into the USB and that it's power cable is plugged into the power harness. You'll know the Hokuyo is receiving power if you can hear it whirring.</td>
     </tr>
 </table>
+
 - If you get multiple errors for the VESC and IMU, there might be a problem with your USB hub. Try power-cycling the car (turning it off and on). If that doesn't fix it, check that the USB hub is connected to the TX2 board and is getting power from the electronics battery through the power harness.  
 Alternatively, you may also get a similar whopping load of errors if more than one person tries running `teleop` at the same time. Power cycle the car and try it again with only one person ssh-ed in (or just use the monitor and keyboard).
 - If your controller was on D and then you switched it to X, try power-cycling the car.

@@ -1,6 +1,6 @@
 ## Lab 3 - Introduction to the RACECAR Platform
 
-![racecar](/assets/img/racecar.jpg)
+![racecar](../assets/img/racecar.jpg)
 
 ### Goals
 - 

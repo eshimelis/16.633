@@ -1,9 +1,3 @@
 ## Course 16.633 | NEET Autonomous Machines Seminar
 
-
-
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+### Lab 3 - [Introduction to the RACECAR Platform](lab3/index.md)
